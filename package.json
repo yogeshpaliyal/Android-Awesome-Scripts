@@ -1,6 +1,6 @@
 {
   "name": "android-awesome-scripts",
-  "version": "0.0.0-alpha01",
+  "version": "0.0.0-alpha03",
   "description": "Commonly used android utility scripts",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/yogeshpaliyal/Android-Awesome-Scripts/issues"
   },
-  "homepage": "https://github.com/yogeshpaliyal/Android-Awesome-Scripts#readme"
+  "homepage": "https://github.com/yogeshpaliyal/Android-Awesome-Scripts#readme",
+  "preferGlobal": true,
+  "bin": {
+    "android-awesome-scripts": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.4.1",
+    "conf": "^10.2.0"
+  }
 }
